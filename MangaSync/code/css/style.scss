@@ -1,0 +1,117 @@
+*{
+    margin: 0 auto;
+
+}
+//imports
+@font-face {
+    font-family: 'coolvetica'; /*a name to be used later*/
+    src: "/code/assets/fonts/coolvetica.ttf"; /*URL to font*/
+}
+//variables
+$color-HEADER: #020004; 
+$color-HEADER-MENU: #fffbfb;
+$small-font: 10px;
+$background-page: #303030;
+$content-color: #202020;
+//page background
+body{
+    background-color: $background-page;
+}
+//fonts
+    h1{
+        font-family: coolvetica;
+        color: white;
+    }
+    h2{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h4{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+// for devices up to 600px
+//header
+header{
+    width: 100%;
+    height: 80px;
+    background-color: $color-HEADER;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+
+    #nav{
+        min-width: 100%;
+        background-color: $color-HEADER;
+        position: absolute;
+        display: none;
+        transition: display 4s;
+        top: 80px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            list-style-type: none;
+            li{
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+        
+}
+
+//content
+.content{
+    width: 100%;
+}
+.section{
+    background-color: $content-color;
+    width: 100%;
+}
+.recentlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+//mangaBIGviewer
+.mangaBIG{
+    max-width: 273px;
+    display: flex;
+    flex-direction: row;
+    img{
+        max-width: 120px;
+    }
+}
+//tags
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.maintag{
+    display: block;
+    background-color: #000067;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.tag{
+    display: block;
+    background-color: $background-page;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+//MEDIA QUERYS PORRA
