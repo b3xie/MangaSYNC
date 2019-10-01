@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@font-face {
+  font-family: 'coolvetica';
+  /*a name to be used later*/
+  src: "/code/assets/fonts/coolvetica.ttf";
+  /*URL to font*/
+}
+
+body, ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #303030;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  min-height: 80px;
+  background-color: #020004;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .headertop {
+  width: 100%;
+  max-width: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headertop a.button {
+  display: none;
+}
+
+header .headertop h1 {
+  font-family: "Karla", sans-serif;
+  color: #c9c9c9;
+}
+
+header .headertop h1 span {
+  color: #b10000;
+}
+
+header .headertop nav {
+  display: block;
+}
+
+header .headertop nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .headertop nav ul li {
+  display: block;
+  padding: 10px;
+}
+
+header .headertop nav a {
+  font-size: 17px;
+  color: #c9c9c9;
+  font-family: "Karla", sans-serif;
+}
+
+header #nav {
+  display: none;
+}
+
+header #nav nav {
+  overflow: hidden;
+}
+
+header #nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+header #nav nav ul li {
+  display: block;
+  padding: 10px;
+}
+
+header #nav nav a {
+  font-size: 17px;
+  color: #c9c9c9;
+  font-family: "Karla", sans-serif;
+}
+
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section {
+  min-width: 768px;
+  max-width: 70%;
+  background-color: #202020;
+}
+
+.section h2 {
+  color: #fffbfb;
+}
+
+@media only screen and (max-width: 700px) {
+  header .headertop a.button {
+    display: block;
+  }
+  header .headertop nav {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

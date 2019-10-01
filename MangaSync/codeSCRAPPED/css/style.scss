@@ -1,0 +1,136 @@
+*{
+    margin: 0 auto;
+
+}
+//MEDIA QUERYS PORRA
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      body{
+          background-color: #fffbfb;
+      }
+}
+//imports
+@font-face {
+    font-family: 'coolvetica'; /*a name to be used later*/
+    src: "/code/assets/fonts/coolvetica.ttf"; /*URL to font*/
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+//variables
+$color-HEADER: #020004; 
+$color-HEADER-MENU: #fffbfb;
+$small-font: 10px;
+$font-title-size: 17px;
+$font-title-color: #c9c9c9;
+$background-page: #303030;
+$content-color: #202020;
+//page background
+body{
+    background-color: $background-page;
+}
+//fonts
+    h1{
+        font-family: 'Rubik', sans-serif;
+        color: white;
+    }
+    h2{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h4{
+        color: $color-HEADER-MENU;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+// for devices up to 600px
+//header
+header{
+    width: 100%;
+    height: 80px;
+    background-color: $color-HEADER;
+    position: fixed;
+    top: 0;    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    a h1 span{
+        color: rgb(177, 0, 0);
+    }
+    #nav{
+        min-width: 100%;
+        background-color: $color-HEADER;
+        position: absolute;
+        display: none;
+        transition: display 4s;
+        top: 80px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+            list-style-type: none;
+            li{
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+        
+}
+
+//content
+.content{
+    width: 100%;
+}
+.section{
+    background-color: $content-color;
+    width: 100%;
+    margin-top: 15px;
+}
+.recentlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+//mangaBIGviewer
+.mangaBIG{
+
+    display: flex;
+    flex-direction: row;
+        color: $font-title-color;
+        font-size: $font-title-size;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    img{
+        max-width: 120px;
+    }
+
+//tags
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.maintag{
+    display: block;
+    background-color: #000067;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.tag{
+    display: block;
+    background-color: $background-page;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
