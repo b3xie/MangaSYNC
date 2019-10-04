@@ -152,6 +152,20 @@ header #nav nav a {
           justify-content: row;
 }
 
+.tags {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .mangaviewBIG {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,6 +178,19 @@ header #nav nav a {
 
 .mangaviewBIG img {
   max-width: 120px;
+}
+
+.mangaviewBIG .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media only screen and (max-width: 700px) {

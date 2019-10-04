@@ -126,6 +126,13 @@ header{
     justify-content: row;
 }
 //mangaview
+//tags
+.tags{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 //mangaviewBIG
 .mangaviewBIG{
     display: flex;
@@ -134,7 +141,9 @@ header{
         max-width: 120px;
     }
     .info{
-
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
 //MQ
