@@ -18,7 +18,7 @@ body {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h4 {
   font-family: Arial, Helvetica, sans-serif;
   color: #c9c9c9;
 }
@@ -137,28 +137,20 @@ header #nav nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.section {
-  width: 70%;
-}
-
-.section h2 {
-  color: #fffbfb;
-}
-
-.CONTENTrecent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: row;
-      -ms-flex-pack: row;
-          justify-content: row;
-}
-
-.tags {
+section {
   width: 100%;
-  height: 34px;
+  max-width: 1200px;
+}
+
+.sliderMAIN {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,11 +158,20 @@ header #nav nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+}
+
+.sliderMAIN::-webkit-scrollbar {
+  display: none;
 }
 
 .mangaBIG {
-  width: 24vw;
-  min-height: 218px;
+  background-color: #202020;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,12 +179,14 @@ header #nav nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding: 10px;
 }
 
-.mangaBIG div {
-  overflow: hidden;
-  height: 100%;
-  padding: 10px;
+.mangaBIG img {
+  width: 150px;
+}
+
+.mangaBIG .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,17 +199,29 @@ header #nav nav a {
           justify-content: flex-start;
 }
 
-.mangaBIG div h3, .mangaBIG div h5, .mangaBIG div p {
+.mangaBIG .info h2, .mangaBIG .info h3, .mangaBIG .info div {
   margin: 5px;
-  margin-top: 0;
 }
 
-.mangaBIG div p {
-  font-size: 15px;
+.tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.mangaBIG img {
-  width: 150px;
+.tags a {
+  background-color: #fffbfb;
+  margin-right: 3px;
 }
 
 @media only screen and (max-width: 700px) {
