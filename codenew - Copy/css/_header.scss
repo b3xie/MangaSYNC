@@ -1,0 +1,66 @@
+//header
+header{    
+    min-height: 80px;
+    background-color: $HEADER-color; 
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .headertop{
+    //style
+
+    //inside items properties
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a.button{
+        display: none;
+    }
+    h1{
+        font-family: $logo-font-family;
+        color: $font-title-color;
+        span{
+            color: rgb(177, 0, 0);
+        }
+    }
+    nav{
+        display: block;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                display: block;
+                padding: 10px
+            }
+        }
+        a{
+            font-size: $font-title-size;
+            color: $font-title-color;
+            font-family: $logo-font-family;
+        }
+    }        
+    }
+    #nav{
+        display: none;
+        nav{
+            overflow: hidden;
+            ul{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                li{
+                    display: block;
+                    padding: 10px
+                }
+            }
+            a{
+                font-size: $font-title-size;
+                color: $font-title-color;
+                font-family: $logo-font-family;
+            }
+        }         
+    }
+
+}
