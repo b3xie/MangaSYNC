@@ -311,6 +311,7 @@ section.double {
   }
   .sliderMAIN .mangaBIG {
     max-width: 100%;
+    scroll-snap-align: start;
   }
   .sliderMAIN .mangaBIG div {
     max-width: 100%;
