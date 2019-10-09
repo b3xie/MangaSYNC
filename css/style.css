@@ -46,7 +46,7 @@ header {
 
 header .headertop {
   width: 100%;
-  max-width: 1080px;
+  max-width: 1400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,13 +144,11 @@ header #nav nav a {
 
 section {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .sliderMAIN {
   width: 100%;
-  max-width: 1200px;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +159,7 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  overflow-x: hidden;
+  overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
 }
@@ -181,8 +179,7 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 10px;
-  max-width: 24vw;
-  max-height: 35vh;
+  min-width: 15vw;
 }
 
 .mangaBIG img {
@@ -200,7 +197,6 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  max-width: 25vw;
   overflow: hidden;
 }
 
@@ -222,11 +218,81 @@ section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .tags a {
   background-color: #fffbfb;
   margin-right: 3px;
+  margin: 3px;
+}
+
+section.double {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.topranked ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.topranked ul li.mangaRANK {
+  background-color: #202020;
+  margin-bottom: 10px;
+  max-width: 410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topranked ul li.mangaRANK h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.topranked ul li.mangaRANK img {
+  max-width: 60px;
+}
+
+.topranked ul li.mangaRANK .infoRANK {
+  padding: 10px;
+}
+
+.topranked ul li.mangaRANK .stars {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 @media only screen and (max-width: 700px) {
@@ -235,6 +301,25 @@ section {
   }
   header .headertop nav {
     display: none;
+  }
+  .sliderMAIN {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+  }
+  .sliderMAIN .mangaBIG {
+    max-width: 100%;
+  }
+  .sliderMAIN .mangaBIG div {
+    max-width: 100%;
+  }
+  section.double {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

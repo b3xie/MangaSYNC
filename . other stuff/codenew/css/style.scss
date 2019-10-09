@@ -1,0 +1,234 @@
+
+//COPIED FROM SCRAPPED VERSION{
+    //MEDIA QUERYS PORRA
+
+    //imports
+    @font-face {
+        font-family: 'coolvetica'; /*a name to be used later*/
+        src: "/code/assets/fonts/coolvetica.ttf"; /*URL to font*/
+    }
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+    //variables
+    $HEADER-color: #020004; 
+    $HEADER-MENU-color: #fffbfb;   
+    $background-page: #303030;
+    $content-color: #202020;
+    //page background and body text
+    body, ul, li , a{
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        background-color: $background-page;
+        scroll-behavior: smooth;
+    }
+//}FINISHED COPY
+//fonts
+    $font-small: 10px;
+    $font-title-size: 17px;
+    $font-title-color: #c9c9c9;
+    $logo-font-family: 'Karla', sans-serif;
+    h1, h2, h3, h4, h4{
+        font-family: Arial, Helvetica, sans-serif;
+        color: $font-title-color;
+    }
+    h1{
+
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: $font-title-color;
+    }
+//header
+header{    
+    min-height: 80px;
+    background-color: $HEADER-color; 
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .headertop{
+    //style
+
+    //inside items properties
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a.button{
+        display: none;
+    }
+    h1{
+        font-family: $logo-font-family;
+        color: $font-title-color;
+        span{
+            color: rgb(177, 0, 0);
+        }
+    }
+    nav{
+        display: block;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                display: block;
+                padding: 10px
+            }
+        }
+        a{
+            font-size: $font-title-size;
+            color: $font-title-color;
+            font-family: $logo-font-family;
+        }
+    }        
+    }
+    #nav{
+        display: none;
+        nav{
+            overflow: hidden;
+            ul{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                li{
+                    display: block;
+                    padding: 10px
+                }
+            }
+            a{
+                font-size: $font-title-size;
+                color: $font-title-color;
+                font-family: $logo-font-family;
+            }
+        }         
+    }
+
+}
+//main PAGE contents
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+section{
+    width: 100%;
+    max-width: 1400px;
+
+}
+.sliderMAIN{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;  
+
+}    
+.sliderMAIN::-webkit-scrollbar { 
+        display: none; 
+    }
+.mangaBIG{
+    margin: 10px;
+    background-color: $content-color;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    min-width: 15vw;
+    img{
+        max-width: 100px;
+
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow: hidden;
+        h2, h3, p, div{
+            margin: 5px;
+        }
+    }
+}
+//tags
+.tags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    a{
+        background-color: $HEADER-MENU-color;
+        margin-right: 3px;
+        margin: 3px;
+    }
+}
+//top ranked
+section.double{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+.topranked{
+    ul{
+        display: flex;
+        flex-direction: column;
+        li.mangaRANK{
+            background-color: $content-color;
+            margin-bottom: 10px;
+            max-width: 410px;;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            h2, img, .infoRANK{
+            }
+            h2{
+                text-align: center;
+                padding: 10px;
+            }
+            img{
+               max-width: 60px; 
+            }
+            .infoRANK{
+                padding: 10px;
+            }
+            .stars{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+            }
+        }
+    }
+}
+.personal{
+
+}
+//MQ
+@media only screen and (max-width: 700px) {
+    header .headertop a.button{
+        display: block;
+    }
+    header .headertop nav{
+        display: none;
+    }
+    .sliderMAIN{
+        flex-direction: row;
+        display: -webkit-box;
+        .mangaBIG{
+            max-width: 100%;
+            div{
+                max-width: 100%;
+            }
+        }
+    }
+    section.double{
+        flex-direction: column;
+}
+}

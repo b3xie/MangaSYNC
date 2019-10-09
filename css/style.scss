@@ -56,7 +56,7 @@ header{
 
     //inside items properties
     width: 100%;
-    max-width: 1080px;
+    max-width: 1400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -119,18 +119,15 @@ header{
 }
 section{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
 
 }
 .sliderMAIN{
     width: 100%;
-    max-width: 1200px;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
-    overflow-x: hidden;
+    overflow-x: scroll;
     scroll-snap-type: x mandatory;  
 
 }    
@@ -143,8 +140,7 @@ section{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    max-width: 24vw;
-    max-height: 35vh;
+    min-width: 15vw;
     img{
         max-width: 100px;
 
@@ -153,7 +149,6 @@ section{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        max-width: 25vw;
         overflow: hidden;
         h2, h3, p, div{
             margin: 5px;
@@ -166,10 +161,54 @@ section{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
     a{
         background-color: $HEADER-MENU-color;
         margin-right: 3px;
+        margin: 3px;
     }
+}
+//top ranked
+section.double{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+.topranked{
+    ul{
+        display: flex;
+        flex-direction: column;
+        li.mangaRANK{
+            background-color: $content-color;
+            margin-bottom: 10px;
+            max-width: 410px;;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            h2, img, .infoRANK{
+            }
+            h2{
+                text-align: center;
+                padding: 10px;
+            }
+            img{
+               max-width: 60px; 
+            }
+            .infoRANK{
+                padding: 10px;
+            }
+            .stars{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+            }
+        }
+    }
+}
+.personal{
+
 }
 //MQ
 @media only screen and (max-width: 700px) {
@@ -179,5 +218,17 @@ section{
     header .headertop nav{
         display: none;
     }
-
+    .sliderMAIN{
+        flex-direction: row;
+        display: -webkit-box;
+        .mangaBIG{
+            max-width: 100%;
+            div{
+                max-width: 100%;
+            }
+        }
+    }
+    section.double{
+        flex-direction: column;
+}
 }
