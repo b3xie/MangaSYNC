@@ -29,6 +29,8 @@ p {
 }
 
 header {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   min-height: 80px;
   background-color: #020004;
   width: 100%;
@@ -169,6 +171,8 @@ section {
 }
 
 .mangaBIG {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
   background-color: #202020;
   display: -webkit-box;
@@ -179,7 +183,9 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 10px;
-  min-width: 15vw;
+  width: 24vw;
+  max-width: 460px;
+  max-height: 300px;
 }
 
 .mangaBIG img {
@@ -232,14 +238,15 @@ section.double {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.topranked {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
 }
 
 .topranked ul {
@@ -253,6 +260,8 @@ section.double {
 }
 
 .topranked ul li.mangaRANK {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #202020;
   margin-bottom: 10px;
   max-width: 410px;
@@ -295,6 +304,48 @@ section.double {
           flex-direction: row;
 }
 
+.personal {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.personal .personalLIST {
+  width: 100%;
+}
+
+.personal .personalLIST ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.personal .personalLIST ul li.coverVIEW {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 15px;
+}
+
+.personal .personalLIST ul li.coverVIEW img {
+  width: 9vw;
+  max-width: 175px;
+  min-width: 104px;
+}
+
 @media only screen and (max-width: 700px) {
   header .headertop a.button {
     display: block;
@@ -321,6 +372,18 @@ section.double {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  section.double .topranked ul {
+    max-height: 500px;
+    overflow: scroll;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  section.double .topranked ul li {
+    margin-right: 5px;
+    scroll-snap-align: start;
   }
 }
 /*# sourceMappingURL=style.css.map */

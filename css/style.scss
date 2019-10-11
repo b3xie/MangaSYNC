@@ -44,7 +44,8 @@
         color: $font-title-color;
     }
 //header
-header{    
+header{  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     min-height: 80px;
     background-color: $HEADER-color; 
     width: 100%;
@@ -135,13 +136,15 @@ section{
         display: none; 
     }
 .mangaBIG{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 10px;
     background-color: $content-color;
     display: flex;
     flex-direction: row;
     padding: 10px;
-    min-width: 15vw;
-
+    width: 24vw;
+    max-width: 460px;
+    max-height: 300px;
     img{
         max-width: 100px;
 
@@ -172,15 +175,15 @@ section{
 //top ranked
 section.double{
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
+    flex-direction: row;
 }
 .topranked{
+    flex-basis: 30%;
     ul{
         display: flex;
         flex-direction: column;
         li.mangaRANK{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: $content-color;
             margin-bottom: 10px;
             max-width: 410px;;
@@ -209,7 +212,26 @@ section.double{
     }
 }
 .personal{
-
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .personalLIST{
+        width: 100%;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li.coverVIEW{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin-right: 15px;
+                img{
+                    width: 9vw;
+                    max-width: 175px;
+                    min-width: 104px;;
+                }
+            }
+        }
+    }
 }
 //MQ
 @media only screen and (max-width: 700px) {
@@ -232,5 +254,15 @@ section.double{
     }
     section.double{
         flex-direction: column;
+        .topranked ul{
+            max-height: 500px;
+            overflow: scroll;
+
+            flex-direction: row;
+            li{
+                margin-right: 5px;
+            scroll-snap-align: start;
+            }
+        }
 }
 }
