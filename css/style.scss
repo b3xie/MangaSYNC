@@ -52,6 +52,7 @@ header{
     align-items: center;
     display: flex;
     flex-direction: column;
+    transition-delay: 2s;
     .headertop{
     //style
 
@@ -142,7 +143,7 @@ section{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    width: 24vw;
+    min-width: 24vw;
     max-width: 460px;
     max-height: 300px;
     img{
@@ -217,18 +218,24 @@ section.double{
     flex-direction: column;
     align-items: flex-start;
     .personalLIST{
-        width: 100%;
+        max-width: 100%;
         ul{
             display: flex;
             flex-direction: row;
-            overflow: hidden;
+            overflow: scroll;
             li.coverVIEW{
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 margin-right: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 img{
                     width: 9vw;
                     max-width: 175px;
                     min-width: 104px;;
+                }
+                .infoHIDE{
+                    text-align: center;
                 }
             }
         }
@@ -245,8 +252,9 @@ section.double{
     .sliderMAIN{
         flex-direction: row;
         display: -webkit-box;
+        padding: 0;
         .mangaBIG{
-            max-width: 100%;
+            width: 100%;
             scroll-snap-align: start;
             div{
                 max-width: 100%;

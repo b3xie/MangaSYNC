@@ -44,6 +44,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 header .headertop {
@@ -183,7 +185,7 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 10px;
-  width: 24vw;
+  min-width: 24vw;
   max-width: 460px;
   max-height: 300px;
 }
@@ -321,7 +323,7 @@ section.double {
 }
 
 .personal .personalLIST {
-  width: 100%;
+  max-width: 100%;
 }
 
 .personal .personalLIST ul {
@@ -332,19 +334,33 @@ section.double {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .personal .personalLIST ul li.coverVIEW {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .personal .personalLIST ul li.coverVIEW img {
   width: 9vw;
   max-width: 175px;
   min-width: 104px;
+}
+
+.personal .personalLIST ul li.coverVIEW .infoHIDE {
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
@@ -360,9 +376,10 @@ section.double {
         -ms-flex-direction: row;
             flex-direction: row;
     display: -webkit-box;
+    padding: 0;
   }
   .sliderMAIN .mangaBIG {
-    max-width: 100%;
+    width: 100%;
     scroll-snap-align: start;
   }
   .sliderMAIN .mangaBIG div {
