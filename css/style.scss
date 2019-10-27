@@ -125,13 +125,24 @@ section{
 
 }
 .sliderMAIN{
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    a i{
+        position: absolute;
+        color: #c9c9c9;
+        background-color: #303030;
+    }
+}
+.sliderMAIN .slider-component{
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    overflow-x: scroll;
+    align-items: center;
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;  
-    left: 100px;
+    top: 200px;
 
 }    
 .sliderMAIN::-webkit-scrollbar { 
@@ -172,6 +183,9 @@ section{
         background-color: $HEADER-MENU-color;
         margin-right: 3px;
         margin: 3px;
+        h3{
+            font-size: 13px;
+        }
     }
 }
 //top ranked
@@ -180,6 +194,7 @@ section.double{
     flex-direction: row;
 }
 .topranked{
+    margin-right: 10px;
     flex-basis: 30%;
     ul{
         display: flex;
@@ -188,7 +203,8 @@ section.double{
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             background-color: $content-color;
             margin-bottom: 10px;
-            max-width: 410px;;
+            max-width: 410px;
+            min-height: 80px;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -214,17 +230,18 @@ section.double{
     }
 }
 .personal{
-    flex-grow: 2;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     .personalLIST{
-        max-width: 100%;
+        width: 100%;
         overflow: hidden;
+        left: -18px;
         ul{
             display: flex;
             flex-direction: row;
-            overflow: scroll;
+            overflow-x: scroll;
             li.coverVIEW{
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 margin-right: 15px;
