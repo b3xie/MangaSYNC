@@ -131,6 +131,7 @@ section{
     justify-content: flex-start;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;  
+    left: 100px;
 
 }    
 .sliderMAIN::-webkit-scrollbar { 
@@ -143,9 +144,9 @@ section{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    min-width: 24vw;
-    max-width: 460px;
+    min-width: 300px;;
     max-height: 300px;
+    overflow: hidden;
     img{
         max-width: 100px;
 
@@ -219,6 +220,7 @@ section.double{
     align-items: flex-start;
     .personalLIST{
         max-width: 100%;
+        overflow: hidden;
         ul{
             display: flex;
             flex-direction: row;

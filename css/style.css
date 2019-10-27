@@ -166,6 +166,7 @@ section {
   overflow-x: scroll;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
+  left: 100px;
 }
 
 .sliderMAIN::-webkit-scrollbar {
@@ -185,9 +186,9 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 10px;
-  min-width: 24vw;
-  max-width: 460px;
+  min-width: 300px;
   max-height: 300px;
+  overflow: hidden;
 }
 
 .mangaBIG img {
@@ -324,6 +325,7 @@ section.double {
 
 .personal .personalLIST {
   max-width: 100%;
+  overflow: hidden;
 }
 
 .personal .personalLIST ul {
