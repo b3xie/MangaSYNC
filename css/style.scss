@@ -135,7 +135,6 @@ section{
     flex-direction: row;
     align-items: center;
     a i{
-        position: absolute;
         color: #c9c9c9;
         background-color: #303030;
         margin-left: 15px;
@@ -313,6 +312,9 @@ footer{
         flex-direction: row;
         display: -webkit-box;
         padding: 0;
+        a i{
+            display: none;
+        }
         .mangaBIG{
             width: 100%;
             scroll-snap-align: start;

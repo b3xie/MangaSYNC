@@ -172,7 +172,6 @@ section {
 }
 
 .sliderMAIN a i {
-  position: absolute;
   color: #c9c9c9;
   background-color: #303030;
   margin-left: 15px;
@@ -472,6 +471,9 @@ footer div i {
             flex-direction: row;
     display: -webkit-box;
     padding: 0;
+  }
+  .sliderMAIN a i {
+    display: none;
   }
   .sliderMAIN .mangaBIG {
     width: 100%;

@@ -8,3 +8,6 @@ function menu(){
     }
     
 }
+function scroll(){
+    document.getElementById("element").scrollLeft += 200;
+}
