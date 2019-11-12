@@ -196,7 +196,6 @@ section {
   overflow-x: hidden;
   -ms-scroll-snap-type: x mandatory;
       scroll-snap-type: x mandatory;
-  top: 200px;
   scroll-behavior: smooth;
 }
 
@@ -360,11 +359,6 @@ section.double {
 
 .personal .personalLIST {
   width: 100%;
-  overflow: hidden;
-  left: -18px;
-}
-
-.personal .personalLIST ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,10 +366,20 @@ section.double {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  overflow-x: scroll;
 }
 
-.personal .personalLIST ul li.coverVIEW {
+.personal .personalLIST .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: hidden;
+}
+
+.personal .personalLIST .list ul li.coverVIEW {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-right: 15px;
@@ -391,13 +395,13 @@ section.double {
           align-items: center;
 }
 
-.personal .personalLIST ul li.coverVIEW img {
+.personal .personalLIST .list ul li.coverVIEW img {
   width: 9vw;
   max-width: 175px;
   min-width: 104px;
 }
 
-.personal .personalLIST ul li.coverVIEW .infoHIDE {
+.personal .personalLIST .list ul li.coverVIEW .infoHIDE {
   text-align: center;
 }
 

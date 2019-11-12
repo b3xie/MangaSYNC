@@ -149,7 +149,6 @@ section{
     align-items: center;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;  
-    top: 200px;
     scroll-behavior: smooth;
 }    
 .sliderMAIN::-webkit-scrollbar { 
@@ -243,28 +242,31 @@ section.double{
     align-items: flex-start;
     .personalLIST{
         width: 100%;
-        overflow: hidden;
-        left: -18px;
-        ul{
-            display: flex;
-            flex-direction: row;
-            overflow-x: scroll;
-            li.coverVIEW{
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                margin-right: 15px;
+        display: flex;
+        flex-direction: row;
+        .list{
+            ul{
                 display: flex;
-                flex-direction: column;
-                align-items: center;
-                img{
-                    width: 9vw;
-                    max-width: 175px;
-                    min-width: 104px;;
+                flex-direction: row;
+                overflow-x: hidden;
+                li.coverVIEW{
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    margin-right: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    img{
+                        width: 9vw;
+                        max-width: 175px;
+                        min-width: 104px;;
+                    }
+                    .infoHIDE{
+                        text-align: center;
+                    }
                 }
-                .infoHIDE{
-                    text-align: center;
-                }
-            }
+            }            
         }
+
     }
 }
 //categories page
