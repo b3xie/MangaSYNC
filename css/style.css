@@ -31,7 +31,7 @@ p {
 header {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-height: 80px;
+  height: 80px;
   background-color: #020004;
   width: 100%;
   position: fixed;
@@ -422,6 +422,72 @@ section.double {
   border-radius: 10px;
   padding: 15px;
   background-color: #202020;
+}
+
+.user-header {
+  background-image: url("/assets/imgs/user-header.png");
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.user-info {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-info .user-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.user-info .user-left .user-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.user-info .user-left .user-name h1, .user-info .user-left .user-name h2, .user-info .user-left .user-name h3 {
+  margin: 3px;
+  font-style: normal;
+}
+
+.user-info .user-left .user-name #add-friend {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #020004;
+  opacity: 80%;
 }
 
 footer {

@@ -1,0 +1,38 @@
+.user-header{
+background-image: url("/assets/imgs/user-header.png");
+background-position: center;
+min-height: 300px;
+width: 100%;
+margin-top: 80px;
+}
+.user-info{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .user-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        .user-name{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            h1, h2, h3{
+                margin: 3px;
+                font-style: normal;
+            }
+            #add-friend{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #020004;
+                opacity: 80%;
+            }
+        }
+    }
+    .user-rigth{
+
+    }
+}
