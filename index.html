@@ -9,10 +9,11 @@
     <title>MangaSYNC</title>
     <script src="js/script.js"></script>
     <script src="js/test.js"></script>
+    <script src="/js/logincheck.js"></script>
     <script src="https://kit.fontawesome.com/8585a5a25f.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="logincheck();">
     <a href="top"></a>
     <header id="header">
         <!--future PHP variable for menu-->
@@ -29,7 +30,7 @@
                     <li><a href="">About</a></li>
                 </ul>
             </nav>
-            <a href="/pages/user.html"><img src="assets/imgs/Component 10 – 2.png" alt=""></a>
+            <a href="/pages/user.html"><h3 id="login-opt"></h3><img src="assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>
         </div>
         <div class="headermobile" id="nav">
             <nav>

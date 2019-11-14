@@ -45,6 +45,7 @@
     }
 //header
 header{  
+    z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
     height: 80px;
     background-color: $HEADER-color; 
@@ -57,7 +58,12 @@ header{
     transition-delay: 2s;
     .headertop{
     //style
-
+    img#profile{
+        display: block;
+    }
+    a h3{
+        display: none;
+    }
     //inside items properties
     width: 100%;
     max-width: 1400px;
@@ -269,6 +275,10 @@ section.double{
 
     }
 }
+//footer
+footer{
+    top: 1;
+}
 //categories page
 .blocks-container{
     display: flex;
@@ -282,6 +292,7 @@ section.double{
 }
 //user page import
 @import 'user';
+@import 'login';
 //footer
 footer{
     background-color: #202020;
