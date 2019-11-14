@@ -385,7 +385,6 @@ section.double {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  overflow-x: hidden;
 }
 
 .personal .personalLIST .list ul li.coverVIEW {
