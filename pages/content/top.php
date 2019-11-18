@@ -1,7 +1,7 @@
 <div class="topranked">
                 <h2>Top Ranked</h2>
                 <ul>
-                    <a href="">
+                    <a href="/pages/mangaINFO.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>1</h2>

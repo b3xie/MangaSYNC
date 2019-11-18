@@ -12,7 +12,7 @@
                     <li><a href="/pages/categories.html">Categories</a></li>
                     <li><a href="">News</a></li>
                     <li><a href="">About</a></li>
-                    <li><input type="text" name="test"></li>
+                    <li><input type="text" name="test" id="input"></li>
                 </ul>
             </nav>
             <a href="/pages/user.php"><h3 id="login-opt"></h3><img src="/assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>

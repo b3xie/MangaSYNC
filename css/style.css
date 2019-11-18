@@ -16,6 +16,7 @@ body, ul, li, a {
 body {
   background-color: #303030;
   scroll-behavior: smooth;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h4 {
@@ -26,123 +27,6 @@ h1, h2, h3, h4, h4 {
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: #c9c9c9;
-}
-
-header {
-  z-index: 1;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-height: 80px;
-  background-color: #020004;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
-}
-
-header .headertop {
-  width: 100%;
-  max-width: 1400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header .headertop img#profile {
-  display: block;
-}
-
-header .headertop a h3 {
-  display: none;
-}
-
-header .headertop a.button {
-  display: none;
-}
-
-header .headertop h1 {
-  font-family: "Karla", sans-serif;
-  color: #c9c9c9;
-}
-
-header .headertop h1 span {
-  color: #b10000;
-}
-
-header .headertop nav {
-  display: block;
-}
-
-header .headertop nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-header .headertop nav ul li {
-  display: block;
-  padding: 10px;
-}
-
-header .headertop nav a {
-  font-size: 17px;
-  color: #c9c9c9;
-  font-family: "Karla", sans-serif;
-}
-
-header #nav {
-  display: none;
-  width: 100%;
-}
-
-header #nav nav {
-  overflow: hidden;
-}
-
-header #nav nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-}
-
-header #nav nav ul li {
-  display: block;
-  padding: 10px;
-}
-
-header #nav nav ul li input {
-  width: 100%;
-}
-
-header #nav nav a {
-  font-size: 17px;
-  color: #c9c9c9;
-  font-family: "Karla", sans-serif;
 }
 
 .main {
@@ -290,6 +174,8 @@ section.double {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .topranked {
@@ -575,9 +461,162 @@ footer {
   }
 }
 
+header {
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 80px;
+  background-color: #020004;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+header .headertop {
+  width: 100%;
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headertop img#profile {
+  display: block;
+}
+
+header .headertop a h3 {
+  display: none;
+}
+
+header .headertop a.button {
+  display: none;
+}
+
+header .headertop h1 {
+  font-family: "Karla", sans-serif;
+  color: #c9c9c9;
+}
+
+header .headertop h1 span {
+  color: #b10000;
+}
+
+header .headertop nav {
+  display: block;
+}
+
+header .headertop nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .headertop nav ul li {
+  display: block;
+  padding: 10px;
+}
+
+header .headertop nav a {
+  font-size: 17px;
+  color: #c9c9c9;
+  font-family: "Karla", sans-serif;
+}
+
+header #nav {
+  display: none;
+  width: 100%;
+}
+
+header #nav nav {
+  overflow: hidden;
+}
+
+header #nav nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+header #nav nav ul li {
+  display: block;
+  padding: 10px;
+}
+
+header #nav nav ul li input {
+  width: 100%;
+}
+
+header #nav nav a {
+  font-size: 17px;
+  color: #c9c9c9;
+  font-family: "Karla", sans-serif;
+}
+
+#input {
+  background-color: #020004;
+}
+
 .main section .login-form {
   height: 100%;
   background-color: black;
+}
+
+.manga-page-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.manga-page-info .n1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.manga-page-info .n2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 footer {
