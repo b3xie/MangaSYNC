@@ -15,36 +15,10 @@
 
 <body onload="logincheck();">
     <a href="top"></a>
-    <header id="header">
-        <!--future PHP variable for menu-->
-        <div class="headertop">
-            <a class="button" href="#" onclick="menu();"><img src="assets/imgs/ic_menu_24px.png" alt=""></a>
-            <a href="index.html">
-                <h1>Manga<span>SYNC</span></h1>
-            </a>
-            <nav>
-                <!--PHP variable-->
-                <ul class="menu">
-                    <li><a href="/pages/categories.html">Categories</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </nav>
-            <a href="/pages/user.html"><h3 id="login-opt"></h3><img src="assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>
-        </div>
-        <div class="headermobile" id="nav">
-            <nav>
-                <!--PHP variable-->
-                <ul class="menu">
-                    <li><input type="text"></li>
-                    <li><a href="/pages/categories.html">Categories</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">About</a></li>
-                </ul>
-            </nav>
-        </div>
+    <?php
+        include 'pages/header.php';
+     ?>
 
-    </header>
 
     <div class="main">
         <section>
@@ -64,7 +38,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -95,7 +68,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -126,7 +98,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -157,7 +128,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -188,7 +158,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -219,7 +188,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -250,7 +218,6 @@
 
                             <div class="info">
                                 <h2>Oyasumi Punpun</h2>
-                                <h3>おやすみプンプン</h3>
                                 <div class="tags">
                                     <a href="">
                                         <h3>Finished</h3>
@@ -282,108 +249,9 @@
             </div>
         </section>
         <section class="double">
-            <div class="topranked">
-                <h2>Top Ranked</h2>
-                <ul>
-                    <li class="mangaRANK">
-                        <h2>1</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>2</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-                    <li class="mangaRANK">
-                        <h2>3</h2>
-                        <img src="assets/imgs/ykk_capa.jpg" alt="">
-                        <div class="infoRANK">
-                            <h3>Yokohama Kadaishi Kikou</h3>
-                            <h4>142 Chapters</h4>
-                        </div>
-                        <div class="stars">
-                            <img src="assets/imgs/google/ic_star_24px.png" alt="star">
-                            <h2>8.66</h2>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
+            <?php
+                include 'pages/content/top.php';
+            ?>
             <div class="personal">
                 <h2>Continue Reading</h2>
                 <div class="personalLIST">
@@ -434,7 +302,7 @@
                     </div>
 
 
-                    
+
 
 
                 </div>
@@ -487,7 +355,7 @@
                     </div>
 
 
-                    
+
 
 
                 </div>
@@ -540,7 +408,7 @@
                     </div>
 
 
-                    
+
 
 
                 </div>

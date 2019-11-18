@@ -1,24 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Username</title>
-    
-    <script src="https://kit.fontawesome.com/8585a5a25f.js" crossorigin="anonymous"></script>
-
-
-</head>
-
-<body>
-    <header id="header">
+<header id="header">
         <!--future PHP variable for menu-->
         <div class="headertop">
-            <a class="button" href="#" onclick="menu();"><img src="/assets/imgs/Component 10 – 2.png" alt=""></a>
-            <a href="/index.html">
+            <a class="button" href="#" onclick="menu();"><img src="assets/imgs/ic_menu_24px.png" alt=""></a>
+            <a href="/index.php">
                 <h1>Manga<span>SYNC</span></h1>
             </a>
             <nav>
@@ -27,9 +12,10 @@
                     <li><a href="/pages/categories.html">Categories</a></li>
                     <li><a href="">News</a></li>
                     <li><a href="">About</a></li>
+                    <li><input type="text" name="test"></li>
                 </ul>
             </nav>
-            <a href=""><img src="/assets/imgs/Component 10 – 2.png" alt=""></a>
+            <a href="/pages/user.php"><h3 id="login-opt"></h3><img src="/assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>
         </div>
         <div class="headermobile" id="nav">
             <nav>
@@ -44,15 +30,3 @@
         </div>
 
     </header>
-    <div class="main">
-        <section>
-            <div class="login-form">
-                <h1>d</h1>
-            </div>
-            <img src="/" alt="">
-        </section>
-    </div>
-
-</body>
-
-</html>

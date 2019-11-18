@@ -10,10 +10,8 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-#test{
-    height: 1000px;
-}
 .user-info{
+    
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -50,6 +48,28 @@ background-size: cover;
     }
 }
 
+
+.user-double{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .user-double-left{
+        flex-grow: 2;
+    }
+    .user-double-right{
+        flex-grow: 1;
+        .social{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+
+
+// mdia query
 @media only screen and (max-width: 700px){
     .user-info{
         flex-direction: column;

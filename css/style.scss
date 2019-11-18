@@ -221,7 +221,13 @@ section.double{
             min-height: 80px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
             align-items: center;
+            .infoIMG{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
             h2, img, .infoRANK{
             }
             h2{
@@ -303,7 +309,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
-
+    position: relative;
     width: 100%;
     bottom: 0;
     div{
