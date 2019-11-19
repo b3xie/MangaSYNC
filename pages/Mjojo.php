@@ -20,26 +20,20 @@
         <section class='title'>
             <div class="manga-page-info">
             <div>
-                    <img src="/assets/imgs/bersek.jpg" alt="">
+                    <img src="/assets/imgs/jojo7.jpg" alt="">
                     <div class="info">
-                        <h1>Bersek</h1>
+                        <h1>JoJo no Kimyou na Bouken Part 7: Steel Ball Run</h1>
                         <div class="rating">
                             <i class="fas fa-star fa-2x"></i>
-                            <h2>9.30</h2>
+                            <h2>9.16</h2>
 
                         </div>
-                        <h4>? Chapters</h4>
-                        <h4>Author: Miura, Kentarou</h4>
-                        <p class="description">Guts, a former mercenary now known as the "Black Swordsman," is out for
-                            revenge. After a tumultuous childhood, he finally finds someone he respects and believes he
-                            can trust, only to have everything fall apart when this person takes away everything
-                            important to Guts for the purpose of fulfilling his own desires. Now marked for death, Guts
-                            becomes condemned to a fate in which he is relentlessly pursued by demonic beings.
+                        <h4>96 Chapters</h4>
+                        <h4>Author:  Araki, Hirohiko</h4>
+                        <p class="description">Synopsis
+In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.
 
-                            Setting out on a dreadful quest riddled with misfortune, Guts, armed with a massive sword
-                            and monstrous strength, will let nothing stop him, not even death itself, until he is
-                            finally able to take the head of the one who stripped him—and his loved one—of their
-                            humanity.</p>
+The youthful Johnny Joestar, a crippled former horse racer, has come to San Diego to watch the start of the race. There he encounters Gyro Zeppeli, a racer with two steel balls at his waist instead of a gun. Johnny witnesses Gyro using one of his steel balls to unleash a fantastical power, compelling a man to fire his gun at himself during a duel. In the midst of the action, Johnny happens to touch the steel ball and feels a power surging through his legs, allowing him to stand up for the first time in two years. Vowing to find the secret of the steel balls, Johnny decides to compete in the race, and so begins his bizarre adventure across America on the Steel Ball Run.</p>
                     </div>                
             </div>
 

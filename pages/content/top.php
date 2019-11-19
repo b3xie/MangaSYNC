@@ -1,7 +1,7 @@
 <div class="topranked">
                 <h2>Top Ranked</h2>
                 <ul>
-                    <a href="/pages/mangaINFO.php">
+                    <a href="/pages/Mbersek.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>1</h2>
@@ -20,7 +20,7 @@
                             </div>
                         </li>
                     </a>
-                    <a href="">
+                    <a href="/pages/Mjojo.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>2</h2>

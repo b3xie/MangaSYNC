@@ -25,7 +25,7 @@
                         <h1>Bersek</h1>
                         <div class="rating">
                             <i class="fas fa-star fa-2x"></i>
-                            <h2>9.30</h2>
+                            <h2>9.66</h2>
 
                         </div>
                         <h4>? Chapters</h4>

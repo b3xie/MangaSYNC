@@ -24,7 +24,7 @@
 
     <div class="main">
         <section>
-            <h2>New Releases</h2>
+            <h2>Updates</h2>
             <div class="sliderMAIN" id="element">
 
                 <a id="scrollback"> <i class="fas fa-chevron-left fa-3x"></i></a>
@@ -34,28 +34,25 @@
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
+                                <img src="assets/imgs/kimetsu.jpg" alt="cover art">
                             </div>
 
 
                             <div class="info">
-                                <h2>Oyasumi Punpun</h2>
+                                <h2>Kimetsu no Yaiba</h2>
                                 <div class="tags">
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Ongoing</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Action</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finishe3d</h3>
+                                        <h3>Demons</h3>
                                     </a>
                                 </div>
                                 <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
+                                Since ancient times, rumors have abounded of man-eating demons lurking in the woods. Because of this, the local townsfolk never venture outside at night. Legend has it that a demon slayer also roams the night, hunting down these bloodthirsty demons. For young Tanjirou, these rumors will soon to become his harsh reality...
                                 </p>
                             </div>
                         </div>
@@ -64,28 +61,27 @@
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
+                                <img src="assets/imgs/shingeki.jpg" alt="cover art">
                             </div>
 
 
                             <div class="info">
-                                <h2>Oyasumi Punpun</h2>
+                                <h2>Shingeki no Kyojin</h2>
                                 <div class="tags">
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Ongoing</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Horror</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finishe3d</h3>
+                                        <h3>
+                                            Action
+                                        </h3>
                                     </a>
                                 </div>
                                 <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
+                                Hundreds of years ago, horrifying creatures which resembled humans appeared. These mindless, towering giants, called "titans," proved to be an existential threat, as they preyed on whatever humans they could find in order to satisfy a seemingly unending appetite. Unable to effectively combat the titans, mankind was forced to barricade themselves within large walls surrounding what may very well be humanity's last safe haven in the world.
                                 </p>
                             </div>
                         </div>
@@ -94,28 +90,25 @@
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
+                                <img src="assets/imgs/promised.jpg" alt="cover art">
                             </div>
 
 
                             <div class="info">
-                                <h2>Oyasumi Punpun</h2>
+                                <h2>Yakusoku no Neverland</h2>
                                 <div class="tags">
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Ongoing</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Mystery</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finishe3d</h3>
+                                        <h3>Horror</h3>
                                     </a>
                                 </div>
                                 <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
+                                At Grace Field House, life couldn't be better for the orphans! Though they have no parents, together with the other kids and a kind "Mama" who cares for them, they form one big, happy family. No child is ever overlooked, especially since they are all adopted by the age of 12. Their daily lives involve rigorous tests, but afterwards, they are allowed to play outside. 
                                 </p>
                             </div>
                         </div>
@@ -124,118 +117,25 @@
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
+                                <img src="assets/imgs/onepiece.jpg" alt="cover art">
                             </div>
 
 
                             <div class="info">
-                                <h2>Oyasumi Punpun</h2>
+                                <h2>One Piece</h2>
                                 <div class="tags">
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Ongoing</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finished</h3>
+                                        <h3>Action</h3>
                                     </a>
                                     <a href="">
-                                        <h3>Finishe3d</h3>
+                                        <h3>Adventure</h3>
                                     </a>
                                 </div>
                                 <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="mangaBIG">
-                            <!--php element-->
-                            <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
-                            </div>
-
-
-                            <div class="info">
-                                <h2>Oyasumi Punpun</h2>
-                                <div class="tags">
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finishe3d</h3>
-                                    </a>
-                                </div>
-                                <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="mangaBIG">
-                            <!--php element-->
-                            <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
-                            </div>
-
-
-                            <div class="info">
-                                <h2>Oyasumi Punpun</h2>
-                                <div class="tags">
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finishe3d</h3>
-                                    </a>
-                                </div>
-                                <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="mangaBIG" id="last">
-                            <!--php element-->
-                            <div class="img">
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="Oyasumi Punpun cover art">
-                            </div>
-
-
-                            <div class="info">
-                                <h2>Oyasumi Punpun</h2>
-                                <div class="tags">
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finished</h3>
-                                    </a>
-                                    <a href="">
-                                        <h3>Finishe3d</h3>
-                                    </a>
-                                </div>
-                                <p>
-                                    is a manga written and illustrated by Inio Asano, published between March 2007 and
-                                    November 2013. ... The manga explores themes such as depression, love, social
-                                    isolation,
-                                    sex, death, and family.
+                                Gol D. Roger, a man referred to as the "Pirate King," is set to be executed by the World Government. But just before his demise, he confirms the existence of a great treasure, One Piece, located somewhere within the vast ocean known as the Grand Line. Announcing that One Piece can be claimed by anyone worthy enough to reach it, the Pirate King is executed and the Great Age of Pirates begins.
                                 </p>
                             </div>
                         </div>
@@ -270,34 +170,34 @@
                             </li>
                             <li class="coverVIEW">
                                 <a href=""></a>
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="">
+                                <img src="assets/imgs/evangelion.jpg" alt="">
                                 </a>
                                 <div class="infoHIDE">
-                                    <h3>Oyasumi Punpun</h3>
+                                    <h3>Neon Genesis Evangelion</h3>
                                 </div>
                             </li>
                             <li class="coverVIEW">
                                 <a href=""></a>
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="">
+                                <img src="assets/imgs/ykk_capa.jpg" alt="">
                                 </a>
                                 <div class="infoHIDE">
-                                    <h3>Oyasumi Punpun</h3>
+                                    <h3>Yokohama Kaidashi Kikou</h3>
                                 </div>
                             </li>
                             <li class="coverVIEW">
                                 <a href=""></a>
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="">
+                                <img src="assets/imgs/no6.jpg" alt="">
                                 </a>
                                 <div class="infoHIDE">
-                                    <h3>Oyasumi Punpun</h3>
+                                    <h3>No.6</h3>
                                 </div>
                             </li>
                             <li class="coverVIEW">
                                 <a href=""></a>
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="">
+                                <img src="assets/imgs/gunnm.jpg" alt="">
                                 </a>
                                 <div class="infoHIDE">
-                                    <h3>Oyasumi Punpun</h3>
+                                    <h3>Gunnm</h3>
                                 </div>
                             </li>
                         </ul>
