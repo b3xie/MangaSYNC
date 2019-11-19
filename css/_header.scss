@@ -77,6 +77,8 @@ header{
     }
 
 }
-#input{
-    background-color: #020004;
-}
+input[type=text] {
+    border: transparent;
+    background-color: $HEADER-color ;
+    color: white;
+  }

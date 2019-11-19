@@ -143,6 +143,7 @@ section.double{
             margin-bottom: 10px;
             max-width: 410px;
             min-height: 80px;
+            overflow-y: hidden;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -214,7 +215,11 @@ footer{
 .blocks-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    a{
+        margin: 10px;
+    }
     a > h3{
         border-radius: 10px;
         padding: 15px;

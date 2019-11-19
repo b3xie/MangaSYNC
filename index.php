@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MangaSYNC</title>
@@ -14,6 +15,7 @@
 </head>
 
 <body onload="logincheck();">
+
     <a href="top"></a>
     <?php
         include 'pages/header.php';
@@ -416,16 +418,8 @@
         </section>
     </div>
 
-    <button href="#top">yoo boy</button>
 
-    <footer>
-        <h2>Developed by <a href="https://github.com/gabzxth">@gabzxth</a>, 2019.</h2>
-        <div>
-            <i class="fab fa-github fa-3x"></i>
-            <i class="fab fa-twitter fa-3x"></i>
-        </div>
-
-    </footer>
+<?php include 'pages/footer.php';?>
 </body>
 
 </html>

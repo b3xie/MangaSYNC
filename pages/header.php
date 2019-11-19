@@ -1,4 +1,4 @@
-
+<link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
 <header id="header">
         <!--future PHP variable for menu-->
         <div class="headertop">
@@ -9,10 +9,10 @@
             <nav>
                 <!--PHP variable-->
                 <ul class="menu">
-                    <li><a href="/pages/categories.html">Categories</a></li>
+                    <li><a href="/pages/categories.php">Categories</a></li>
                     <li><a href="">News</a></li>
                     <li><a href="">About</a></li>
-                    <li><input type="text" name="test" id="input"></li>
+                    <li> <i class="fas fa-search" style="color: white;"></i><input type="text" name="search" placeholder="Search.."></li>
                 </ul>
             </nav>
             <a href="/pages/user.php"><h3 id="login-opt"></h3><img src="/assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>
@@ -21,8 +21,8 @@
             <nav>
                 <!--PHP variable-->
                 <ul class="menu">
-                    <li><input type="text"></li>
-                    <li><a href="/pages/categories.html">Categories</a></li>
+                    <li> <i class="fas fa-search" style="color: white;"></i><input type="text" name="search" placeholder="Search.."></li>
+                    <li><a href="/pages/categories.php">Categories</a></li>
                     <li><a href="">News</a></li>
                     <li><a href="">About</a></li>
                 </ul>

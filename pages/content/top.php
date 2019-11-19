@@ -101,7 +101,7 @@
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>6</h2>
-                                <img src="/assets/imgs/ykk_capa.jpg" alt="">
+                                <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
                                 <div class="infoRANK">
                                     <h3>Oyasumi Punpun</h3>
                                     <h4>147 Chapters</h4>
@@ -116,6 +116,83 @@
                             </div>
                         </li>                        
                     </a>
+                    <a href="">
+                        <li class="mangaRANK">
+                            <div class="infoIMG">
+                                <h2>7</h2>
+                                <img src="/assets/imgs/vagabond.jpg" alt="">
+                                <div class="infoRANK">
+                                    <h3>Vagabond</h3>
+                                    <h4>327 Chapters</h4>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stars">
+                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                                <h2>8.98</h2>
+                            </div>
+                        </li>                        
+                    </a>
+                    <a href="">
+                        <li class="mangaRANK">
+                            <div class="infoIMG">
+                                <h2>8</h2>
+                                <img src="/assets/imgs/slamdunk.jpg" alt="">
+                                <div class="infoRANK">
+                                    <h3>Slam Dunk</h3>
+                                    <h4>276 Chapters</h4>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stars">
+                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                                <h2>8.93</h2>
+                            </div>
+                        </li>                        
+                    </a>
+                    <a href="">
+                        <li class="mangaRANK">
+                            <div class="infoIMG">
+                                <h2>9</h2>
+                                <img src="/assets/imgs/kingdom.jpg" alt="">
+                                <div class="infoRANK">
+                                    <h3>Kingdom</h3>
+                                    <h4>? Chapters</h4>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stars">
+                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                                <h2>8.93</h2>
+                            </div>
+                        </li>                        
+                    </a>
+                    <a href="">
+                        <li class="mangaRANK">
+                            <div class="infoIMG">
+                                <h2>10</h2>
+                                <img src="/assets/imgs/madeinabyss.jpg" alt="">
+                                <div class="infoRANK">
+                                    <h3>Made in Abyss</h3>
+                                    <h4>? Chapters</h4>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stars">
+                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                                <h2>8.93</h2>
+                            </div>
+                        </li>                        
+                    </a>
+                    
 
                 </ul>
             </div>
