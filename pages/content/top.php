@@ -1,7 +1,7 @@
 <div class="topranked">
                 <h2>Top Ranked</h2>
                 <ul>
-                    <a href="/pages/Mbersek.php">
+                    <a href="/pages/manga/Mbersek.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>1</h2>
@@ -15,12 +15,12 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>9.30</h2>
                             </div>
                         </li>
                     </a>
-                    <a href="/pages/Mjojo.php">
+                    <a href="/pages/manga/Mjojo.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>2</h2>
@@ -34,13 +34,13 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>9.16</h2>
                             </div>
                         </li>
                     </a>
 
-                    <a href="">
+                    <a href="/pages/manga/fullmetal.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>3</h2>
@@ -54,12 +54,12 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>9.10</h2>
                             </div>
                         </li>                        
                     </a>
-                    <a href="">
+                    <a href="/pages/manga/onepiece.php">
                         <li class="mangaRANK">
                             <div class="infoIMG">
                                 <h2>4</h2>
@@ -73,7 +73,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>9.08</h2>
                             </div>
                         </li>                        
@@ -92,7 +92,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>9.00</h2>
                             </div>
                         </li>                        
@@ -111,7 +111,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>8.99</h2>
                             </div>
                         </li>                        
@@ -130,7 +130,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>8.98</h2>
                             </div>
                         </li>                        
@@ -149,7 +149,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>8.93</h2>
                             </div>
                         </li>                        
@@ -168,7 +168,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>8.93</h2>
                             </div>
                         </li>                        
@@ -187,7 +187,7 @@
 
 
                             <div class="stars">
-                                <img src="assets/imgs/google/ic_star_24px.png" alt="star">
+                            <i style="color: yellow"class="fas fa-star"></i>
                                 <h2>8.93</h2>
                             </div>
                         </li>                        

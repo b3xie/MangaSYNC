@@ -63,7 +63,16 @@ background-size: cover;
         .social{
             display: flex;
             flex-direction: row;
+            a{
+                margin-right: 10px;
+                i{
+                    color: white;
+                }
+            }
         }
+    }
+    .user-double-left{
+
     }
 }
 

@@ -29,6 +29,24 @@ p {
   color: #c9c9c9;
 }
 
+i#socialmedia {
+  color: white;
+}
+
+.maintenance {
+  margin-top: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main {
   width: 100%;
   display: -webkit-box;
@@ -306,6 +324,9 @@ section.double {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .personal .personalLIST .list ul li.coverVIEW img {
@@ -316,6 +337,10 @@ section.double {
 
 .personal .personalLIST .list ul li.coverVIEW .infoHIDE {
   text-align: center;
+}
+
+.personal .personalLIST .list ul li.coverVIEW:hover {
+  background-color: #3d3434;
 }
 
 footer {
@@ -459,6 +484,14 @@ footer {
           flex-direction: row;
 }
 
+.user-double .user-double-right .social a {
+  margin-right: 10px;
+}
+
+.user-double .user-double-right .social a i {
+  color: white;
+}
+
 @media only screen and (max-width: 700px) {
   .user-info {
     -webkit-box-orient: vertical;
@@ -577,6 +610,10 @@ header #nav nav ul li {
 
 header #nav nav ul li input {
   width: 100%;
+}
+
+header #nav nav ul li a:hover {
+  color: aqua;
 }
 
 header #nav nav a {

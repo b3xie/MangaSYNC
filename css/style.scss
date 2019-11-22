@@ -46,6 +46,16 @@
     }
 //header
 
+    i#socialmedia{
+        color: white;
+    }
+.maintenance{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 //main PAGE contents
 .main{
     width: 100%;
@@ -193,6 +203,7 @@ section.double{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    justify-content: flex-end;
                     img{
                         width: 9vw;
                         max-width: 175px;
@@ -201,6 +212,10 @@ section.double{
                     .infoHIDE{
                         text-align: center;
                     }
+                }
+                li.coverVIEW:hover{
+                    background-color: rgb(61, 52, 52);
+                    
                 }
             }            
         }
