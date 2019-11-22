@@ -30,7 +30,7 @@
                 <a id="scrollback"> <i class="fas fa-chevron-left fa-3x"></i></a>
 
                 <div class="slider-component" id="slider">
-                    <a href="">
+                    <a href="/pages/manga/kimetsu.php">
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="\pages\sad.php">
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="\pages\sad.php">
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="\pages\sad.php">
                         <div class="mangaBIG">
                             <!--php element-->
                             <div class="img">
@@ -156,58 +156,7 @@
             ?>
             <div class="personal">
                 <h2>Continue Reading</h2>
-                <div class="personalLIST">
-
-                    <div class="list">
-                        <ul>
-                            <li class="coverVIEW">
-                                <a href=""></a>
-                                <img src="assets/imgs/oyasumi punpun.jpg" alt="">
-                                </a>
-                                <div class="infoHIDE">
-                                    <h3>Oyasumi Punpun</h3>
-                                </div>
-                            </li>
-                            <li class="coverVIEW">
-                                <a href=""></a>
-                                <img src="assets/imgs/evangelion.jpg" alt="">
-                                </a>
-                                <div class="infoHIDE">
-                                    <h3>Neon Genesis Evangelion</h3>
-                                </div>
-                            </li>
-                            <li class="coverVIEW">
-                                <a href=""></a>
-                                <img src="assets/imgs/ykk_capa.jpg" alt="">
-                                </a>
-                                <div class="infoHIDE">
-                                    <h3>Yokohama Kaidashi Kikou</h3>
-                                </div>
-                            </li>
-                            <li class="coverVIEW">
-                                <a href=""></a>
-                                <img src="assets/imgs/no6.jpg" alt="">
-                                </a>
-                                <div class="infoHIDE">
-                                    <h3>No.6</h3>
-                                </div>
-                            </li>
-                            <li class="coverVIEW">
-                                <a href=""></a>
-                                <img src="assets/imgs/gunnm.jpg" alt="">
-                                </a>
-                                <div class="infoHIDE">
-                                    <h3>Gunnm</h3>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-
-
-
-
-                </div>
+                <?php include 'pages/content/reading.php';?>
                 <h2>Based on your activity</h2>
                 <div class="personalLIST">
 

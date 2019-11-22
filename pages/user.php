@@ -49,58 +49,7 @@
                 <div class="user-double-left">
                     <div class="personal">
                         <h2>Reading</h2>
-                        <div class="personalLIST">
-
-                            <div class="list">
-                                <ul>
-                                    <li class="coverVIEW">
-                                        <a href=""></a>
-                                        <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
-                                        </a>
-                                        <div class="infoHIDE">
-                                            <h3>Oyasumi Punpun</h3>
-                                        </div>
-                                    </li>
-                                    <li class="coverVIEW">
-                                        <a href=""></a>
-                                        <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
-                                        </a>
-                                        <div class="infoHIDE">
-                                            <h3>Oyasumi Punpun</h3>
-                                        </div>
-                                    </li>
-                                    <li class="coverVIEW">
-                                        <a href=""></a>
-                                        <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
-                                        </a>
-                                        <div class="infoHIDE">
-                                            <h3>Oyasumi Punpun</h3>
-                                        </div>
-                                    </li>
-                                    <li class="coverVIEW">
-                                        <a href=""></a>
-                                        <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
-                                        </a>
-                                        <div class="infoHIDE">
-                                            <h3>Oyasumi Punpun</h3>
-                                        </div>
-                                    </li>
-                                    <li class="coverVIEW">
-                                        <a href=""></a>
-                                        <img src="/assets/imgs/oyasumi punpun.jpg" alt="">
-                                        </a>
-                                        <div class="infoHIDE">
-                                            <h3>Oyasumi Punpun</h3>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-
-
-
-
-                        </div>
+                        <?php include 'content/reading.php';?>
                         <h2>Completed</h2>
                         <div class="personalLIST">
 
@@ -212,7 +161,18 @@
                 </div>
                 <div class="user-double-right">
                     <div class="social">
-
+                        <a href="https://twitter.com/gabzxth">
+                            <i style='color: white;' class="fab fa-twitter-square fa-3x"></i>
+                        </a>
+                        <a href="">
+                            <i style="color: white;"class="fab fa-facebook-square fa-3x"></i>
+                        </a>
+                        <a href="">
+                        <i class="fab fa-discord fa-3x"></i>
+                        </a>
+                        <a href="/pages/bitcoin.php">
+                        <i class="fab fa-btc fa-3x"></i>
+                        </a>
                     </div>
                         <?php
                         include 'content/user-top.php';
