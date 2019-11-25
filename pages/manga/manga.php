@@ -62,6 +62,7 @@
 
         </section>
         <section class='title'>
+        <h1>Chapters</h1>
         <?php
         while ($row2 = mysqli_fetch_assoc($cmd2)){
                 echo "

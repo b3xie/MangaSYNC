@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 25-Nov-2019 às 05:16
--- Versão do servidor: 5.7.26
--- versão do PHP: 7.2.18
+-- Generation Time: Nov 25, 2019 at 08:21 PM
+-- Server version: 5.7.26
+-- PHP Version: 7.2.18
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `chapters`
+-- Table structure for table `chapters`
 --
 
 DROP TABLE IF EXISTS `chapters`;
@@ -37,21 +37,40 @@ CREATE TABLE IF NOT EXISTS `chapters` (
   `uploaded_by` text COLLATE utf8_unicode_ci NOT NULL,
   `upload_date` date NOT NULL,
   `link` text COLLATE utf8_unicode_ci NOT NULL,
-  `num` int(11) NOT NULL,
-  PRIMARY KEY (`chapterID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+  `num` float NOT NULL,
+  PRIMARY KEY (`chapterID`),
+  KEY `ID` (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `chapters`
+-- Dumping data for table `chapters`
 --
 
 INSERT INTO `chapters` (`chapterID`, `ID`, `manga_name`, `chapter_name`, `uploaded_by`, `upload_date`, `link`, `num`) VALUES
-(1, 6, 'Neon Genesis Evangelion: The Shinji Ikari Raising Project', 'Stage 67', 'Gabi Braga', '2019-11-24', '/assets/chapters/Neon Genesis Evangelion The Shinji Ikari Raising Project/67/', 67);
+(1, 6, 'Neon Genesis Evangelion: The Shinji Ikari Raising Project', 'Stage 67', 'Gabi Braga', '2019-11-24', '/assets/chapters/Neon Genesis Evangelion The Shinji Ikari Raising Project/67.pdf', 67),
+(2, 8, 'Shingeki no Kyojin', 'To You, 2,000 Years From Now', 'gabzxth', '2016-08-30', '/assets/chapters/8/', 1),
+(3, 8, '', 'That Day', 'gabzxth', '2016-08-30', '/assets/chapters/8/', 2),
+(4, 8, '', 'Night of The Disbanding Ceremony', 'gabzxth', '2016-08-30', '/assets/chapters/8/', 3),
+(5, 8, '', 'First Battle', 'gabzxth', '2016-08-30', '/assets/chapters/8/', 4),
+(6, 8, '', 'A Dull Flow in The Midst of Despair', 'gabzxth', '2019-11-25', '', 5),
+(7, 8, '', 'The World That The Girl Saw', 'gabzxth', '2019-11-25', '', 6),
+(14, 8, 'Shingeki no Kyojin', 'Small Blade', 'gabzxth', '2019-11-25', '', 7),
+(15, 8, '', 'Roar', 'gabzxth', '2019-11-25', '', 7),
+(16, 8, '', 'The Beating of A Heart Can Be Heard', 'gabzxth', '2019-11-25', '', 9),
+(17, 8, '', 'Captain Levi', 'gabzxth', '2019-11-25', '', 9.5),
+(18, 8, '', 'Where\'s The Left Arm?', 'gabzxth', '2019-11-25', '', 10),
+(19, 8, '', 'Response', 'gabzxth', '2019-11-25', '', 11),
+(20, 8, '', 'Icon', 'gabzxth', '2019-11-25', '', 12),
+(27, 8, '', 'Wound', 'gabzxth', '2019-11-25', '', 13),
+(28, 8, '', 'Primitive Desire', 'gabzxth', '2019-11-25', '', 14),
+(29, 8, '', 'One by One', 'gabzxth', '2019-11-25', '', 15),
+(30, 8, '', 'Necessity', 'gabzxth', '2019-11-25', '', 16),
+(31, 8, '', 'Delusions of Strength', 'gabzxth', '2019-11-25', '', 17);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `manga`
+-- Table structure for table `manga`
 --
 
 DROP TABLE IF EXISTS `manga`;
@@ -69,7 +88,7 @@ CREATE TABLE IF NOT EXISTS `manga` (
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `manga`
+-- Dumping data for table `manga`
 --
 
 INSERT INTO `manga` (`ID`, `manga_name`, `Description`, `Author`, `Chapters`, `Ranking`, `Released`, `link`, `last`) VALUES
@@ -87,7 +106,7 @@ INSERT INTO `manga` (`ID`, `manga_name`, `Description`, `Author`, `Chapters`, `R
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `news`
+-- Table structure for table `news`
 --
 
 DROP TABLE IF EXISTS `news`;
@@ -102,20 +121,21 @@ CREATE TABLE IF NOT EXISTS `news` (
   `img` text COLLATE utf8_unicode_ci NOT NULL,
   `video` text COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`newsID`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `news`
+-- Dumping data for table `news`
 --
 
 INSERT INTO `news` (`newsID`, `ID`, `Name`, `Subtitle`, `Author`, `Text`, `Published`, `img`, `video`) VALUES
 (1, NULL, 'Website is up and running!!!', 'Read now the first release notes!', 'Gabi Braga', '', '2019-11-24', 'test.png', ''),
-(2, NULL, 'First titles!', 'Check what will go into our library', 'Gabi Braga', 'Nothing lol', '2019-11-24', 'shingeki.jpg', '');
+(2, NULL, 'First titles!', 'Check what will go into our library', 'Gabi Braga', 'Nothing lol', '2019-11-24', 'shingeki.jpg', ''),
+(3, NULL, 'Ribeiro cums ', 'nao resistiu ao anuncio porno de maes safadas,', 'barack obama branco', 'kfhdiofuhdsifokjdsfoidfkldncowidlkfjfdwmoi', '2019-01-01', '', '');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `user`
+-- Table structure for table `user`
 --
 
 DROP TABLE IF EXISTS `user`;
@@ -129,6 +149,16 @@ CREATE TABLE IF NOT EXISTS `user` (
   `password` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`userID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `chapters`
+--
+ALTER TABLE `chapters`
+  ADD CONSTRAINT `chapters_ibfk_1` FOREIGN KEY (`ID`) REFERENCES `manga` (`ID`) ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

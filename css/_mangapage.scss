@@ -2,6 +2,11 @@
     background-color: #1a1a1a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .manga-page-info{
     width: 100%;
@@ -57,11 +62,13 @@
 }
 
 .chapter{
-    max-width: 100%;
+    min-width: 900px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: black;
-    margin: 20px;
-    border-radius: 10px;
+    margin: 5px;
+    
 }
