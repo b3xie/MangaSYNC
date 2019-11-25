@@ -24,7 +24,7 @@
 
     <div class="main">
         <section>
-            <h2>Updates</h2>
+            <h2 class="headtitle">Updates</h2>
             <div class="sliderMAIN" id="element">
 
                 <a id="scrollback"> <i class="fas fa-chevron-left fa-3x"></i></a>
@@ -155,9 +155,9 @@
                 include 'pages/content/top.php';
             ?>
             <div class="personal">
-                <h2>Continue Reading</h2>
+                <h2 class="headtitle">Continue Reading</h2>
                 <?php include 'pages/content/reading.php';?>
-                <h2>Based on your activity</h2>
+                <h2 class="headtitle">Based on your activity</h2>
                 <div class="personalLIST">
 
                     <div class="list">
@@ -210,7 +210,7 @@
 
 
                 </div>
-                <h2>Editor's pick</h2>
+                <h2 class="headtitle">Editor's pick</h2>
                 <div class="personalLIST">
 
                     <div class="list">

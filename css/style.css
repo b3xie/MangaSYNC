@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
 @font-face {
   font-family: 'coolvetica';
   /*a name to be used later*/
@@ -13,6 +14,10 @@ body, ul, li, a {
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #303030;
   scroll-behavior: smooth;
@@ -22,6 +27,11 @@ body {
 h1, h2, h3, h4, h4 {
   font-family: Arial, Helvetica, sans-serif;
   color: #c9c9c9;
+}
+
+.headtitle {
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 p {
@@ -218,7 +228,7 @@ section.double {
   background-color: #202020;
   margin-bottom: 10px;
   max-width: 410px;
-  min-height: 80px;
+  max-height: 100px;
   overflow-y: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,7 +354,7 @@ section.double {
 }
 
 footer {
-  top: 1;
+  bottom: 0;
 }
 
 .blocks-container {
@@ -499,6 +509,12 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .user-double {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 header {
@@ -550,7 +566,7 @@ header .headertop a.button {
 }
 
 header .headertop h1 {
-  font-family: "Karla", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #c9c9c9;
 }
 
@@ -580,7 +596,7 @@ header .headertop nav ul li {
 header .headertop nav a {
   font-size: 17px;
   color: #c9c9c9;
-  font-family: "Karla", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 header #nav {
@@ -619,18 +635,13 @@ header #nav nav ul li a:hover {
 header #nav nav a {
   font-size: 17px;
   color: #c9c9c9;
-  font-family: "Karla", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 input[type=text] {
   border: transparent;
   background-color: #020004;
   color: white;
-}
-
-.main section .login-form {
-  height: 100%;
-  background-color: black;
 }
 
 .title {
@@ -748,12 +759,119 @@ input[type=text] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: black;
   margin: 20px;
   border-radius: 10px;
+}
+
+/**$HEADER-color: #020004; 
+$HEADER-MENU-color: #fffbfb;   
+$background-page: #303030;
+$content-color: #202020;
+*/
+.newsall {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.newsall .news-left {
+  width: 80%;
+}
+
+.newsall .news-left .news-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.newsall .news-left .news-list .news-container {
+  background-color: #1d1d1d;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 600px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsall .news-left .news-list .news-container .news-img {
+  min-width: 300px;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsall .news-left .news-list .news-container .news-info {
+  margin-left: 20px;
+  height: 100%;
+  max-height: 300px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.newsall .news-right {
+  width: 20%;
+}
+
+.newsall .news-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 footer {

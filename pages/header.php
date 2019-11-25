@@ -10,7 +10,7 @@
                 <!--PHP variable-->
                 <ul class="menu">
                     <li><a href="/pages/categories.php">Categories</a></li>
-                    <li><a href="">News</a></li>
+                    <li><a href="/pages/news.php">News</a></li>
                     <li><a href="">About</a></li>
                     <li> <i class="fas fa-search" style="color: white;"></i><input type="text" name="search" placeholder="Search.."></li>
                 </ul>

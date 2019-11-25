@@ -8,6 +8,7 @@
         src: "/code/assets/fonts/coolvetica.ttf"; /*URL to font*/
     }
     @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
     //variables
     $HEADER-color: #020004; 
@@ -22,6 +23,9 @@
         padding: 0;
 
     }
+    html{
+        height: 100%;
+    }
     body{
         background-color: $background-page;
         scroll-behavior: smooth;
@@ -32,13 +36,14 @@
     $font-small: 10px;
     $font-title-size: 17px;
     $font-title-color: #c9c9c9;
-    $logo-font-family: 'Karla', sans-serif;
+    $logo-font-family: 'Rubik', sans-serif;
     h1, h2, h3, h4, h4{
         font-family: Arial, Helvetica, sans-serif;
         color: $font-title-color;
     }
-    h1{
-
+    .headtitle{
+        margin-left: 15px;
+        margin-right: 15px;
     }
     p{
         font-family: Arial, Helvetica, sans-serif;
@@ -152,7 +157,7 @@ section.double{
             background-color: $content-color;
             margin-bottom: 10px;
             max-width: 410px;
-            min-height: 80px;
+            max-height: 100px;
             overflow-y: hidden;
             display: flex;
             flex-direction: row;
@@ -224,7 +229,7 @@ section.double{
 }
 //footer
 footer{
-    top: 1;
+    bottom: 0;
 }
 //categories page
 .blocks-container{
@@ -246,6 +251,7 @@ footer{
 @import 'header';
 @import 'login';
 @import 'mangapage';
+@import 'news';
 //footer
 footer{
     background-color: #202020;
