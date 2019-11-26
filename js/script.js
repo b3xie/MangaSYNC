@@ -23,3 +23,6 @@ function menu(){
     }
     
 }
+function search(){
+    window.location.href = "/pages/searched.php?s=" + document.getElementById('search').value;
+}

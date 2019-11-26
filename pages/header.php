@@ -12,7 +12,7 @@
                     <li><a href="/pages/categories.php">Categories</a></li>
                     <li><a href="/pages/news.php">News</a></li>
                     <li><a href="">About</a></li>
-                    <li> <i class="fas fa-search" style="color: white;"></i><input type="text" name="search" placeholder="Search.."></li>
+                    <li> <i onclick="search();"class="fas fa-search" style="color: white;"></i><input id="search"type="text" name="search" placeholder="Search.."></li>
                 </ul>
             </nav>
             <a href="/pages/user.php"><h3 id="login-opt"></h3><img src="/assets/imgs/Component 10 – 2.png" alt="" id="profile"></a>

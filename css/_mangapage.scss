@@ -23,11 +23,12 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
       .info{
+        
         padding-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin: 0;
+        margin-top: 0;
         .rating{
             display: flex;
             flex-direction: row;
@@ -47,7 +48,7 @@
     .manga-buttons {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         min-width: 100px;
         height: 100%;
         a{

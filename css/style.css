@@ -713,7 +713,7 @@ input[type=text] {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 0;
+  margin-top: 0;
 }
 
 .manga-page-info div .info .rating {
@@ -748,8 +748,9 @@ input[type=text] {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-width: 100px;
   height: 100%;
 }
